@@ -43,10 +43,12 @@ jobs:
           > src/.vuepress/dist/.nojekyll
 
       - name: 上传工件
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
+          name: github-pages
           path: src/.vuepress/dist
           retention-days: 1
+          if-no-files-found: error
   
   deploy:
     needs: build
