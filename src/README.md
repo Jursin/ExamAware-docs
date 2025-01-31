@@ -10,7 +10,7 @@ heroImageStyle:
 bgImageStyle:
   background-attachment: fixed
 heroText: ExamAware 文档
-tagline: 适用于班级多媒体屏幕的考试时间表的信息显示工具
+tagline: 显示当前时间与考试详细信息的工具
 actions:
   - text: 使用说明
     icon: lightbulb
@@ -27,7 +27,7 @@ actions:
 
 欢迎来到 ExamAware 的文档。
 
-ExamAware 系列软件是显示当前时间与考试详细信息的显示工具，可以在各平台上运行。
+ExamAware 系列软件是显示当前时间与考试详细信息的工具，可以在各平台上运行。
 
 ## 开始使用
 
