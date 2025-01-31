@@ -20,12 +20,12 @@ category:
 
 您可以手动编写集控配置文件，并将其托管到静态网站上。
 
-[🚀入门教程](/examschedule/management-config.md)
+[🚀入门教程](examschedule/management-config.md)
 
 <a id="get-started-server"></a>
 
 ### 集控服务器
 
-[🚀入门教程](/examcloud/client-identify.md)
+[🚀入门教程](examcloud/client-identify.md)
 
 <a id="get-started-compare"></a>

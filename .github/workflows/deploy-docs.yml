@@ -42,26 +42,11 @@ jobs:
           pnpm run docs:build
           > src/.vuepress/dist/.nojekyll
 
-      - name: 打包工件
-        shell: sh
-        if: runner.os == 'Linux'
-        run: |
-          tar \
-            --directory "./src/.vuepress/dist/" \
-            -cvf "$RUNNER_TEMP/artifact.tar" \
-            --exclude=.git \
-            --exclude=.github \
-            .
-        env:
-          INPUT_PATH: ./build
-
       - name: 上传工件
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v1
         with:
-          name: github-pages
-          path: ${{ runner.temp }}/artifact.tar
+          path: src/.vuepress/dist
           retention-days: 1
-          if-no-files-found: error
   
   deploy:
     needs: build
@@ -73,13 +58,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: 下载工件
-        uses: actions/download-artifact@v4
-        with:
-          name: github-pages
-          path: ${{ runner.temp }}
       - name: 部署到 GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
-        with:
-          artifact_path: ${{ runner.temp }}/artifact.tar
