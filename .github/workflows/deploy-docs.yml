@@ -1,4 +1,3 @@
-
 name: 部署文档
 
 on:
@@ -24,7 +23,6 @@ jobs:
         uses: pnpm/action-setup@v4
         with:
           version: 9.9.0+sha512.60c18acd138bff695d339be6ad13f7e936eea6745660d4cc4a776d5247c540d0edee1a563695c183a66eb917ef88f2b4feb1fc25f32a7adcadc7aaf3438e99c1
-
 
       - name: 设置 Node.js
         uses: actions/setup-node@v4
@@ -66,22 +64,22 @@ jobs:
           if-no-files-found: error
   
   deploy:
-    # Add a dependency to the build job
     needs: build
-
-    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
     permissions:
-      pages: write      # to deploy to Pages
-      id-token: write   # to verify the deployment originates from an appropriate source
-
-    # Deploy to the github-pages environment
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
-    # Specify runner + deployment step
     runs-on: ubuntu-latest
     steps:
+      - name: 下载工件
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: ${{ runner.temp }}
       - name: 部署到 GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2 # or the latest "vX.X.X" version tag for this action
+        uses: actions/deploy-pages@v2
+        with:
+          artifact_path: ${{ runner.temp }}/artifact.tar
