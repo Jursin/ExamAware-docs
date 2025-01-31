@@ -58,7 +58,7 @@ jobs:
           INPUT_PATH: ./build
 
       - name: 上传工件
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: github-pages
           path: ${{ runner.temp }}/artifact.tar
