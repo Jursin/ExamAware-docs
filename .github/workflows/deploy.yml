@@ -52,13 +52,6 @@ jobs:
         run: |-
           pnpm run docs:build
           > src/.vuepress/dist/.nojekyll
-
-      - name: 删除不必要的文件夹
-        run: |-
-          rm -rf src/.vuepress/dist/.nojekyll/.git
-          rm -rf src/.vuepress/dist/.nojekyll/.github
-          rm -rf src/.vuepress/dist/.nojekyll/.vscode
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
