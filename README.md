@@ -1,8 +1,8 @@
 # ExamAware 文档
 
-这是 [ExamAware](https://github.com/HelloWRC/ExamAware) 文档仓库。本文档基于 [VuePress](https://vuejs.press/) 搭建
+这是 [ExamAware](https://github.com/ExamAware/ExamAware-docs) 文档仓库。本文档基于 [VuePress](https://vuejs.press/) 搭建
 
-[在线查看文档](https://ExamAware.github.io/ExamAware-docs-next/)
+[在线查看文档](https://examaware.gdata.fun)
 
 ## 开始编写文档
 
@@ -19,7 +19,7 @@
     pnpm run docs:dev
     ```
 
-启动 VuePress 服务器后，在浏览器中打开终端输出的链接（默认是[http://localhost:8080/ExamAware-docs-next/](http://localhost:8080/ExamAware-docs-next/)）即可浏览文档。当本地文档做出更改时，浏览器中的文档将自动刷新。
+启动 VuePress 服务器后，在浏览器中打开终端输出的链接（默认是[http://localhost:8080/](http://localhost:8080/)）即可浏览文档。当本地文档做出更改时，浏览器中的文档将自动刷新。
 
 本文档使用了 vuepress-plugin-md-enhance
  的一些扩展语法，请尽量直接编辑 Markdown 文件，而不是使用可视化 Markdown 编辑器。建议使用 [Visual Studio Code](https://code.visualstudio.com/) 编辑文档。
@@ -29,15 +29,7 @@
 
 ## 做出贡献
 
-如果您有意愿为本文档做出贡献，请先阅读[贡献指南](https://docs.ExamAware.tech/community/contributing.html)。我们欢迎向本仓库提交 [Pull Request](https://github.com/ExamAware/ExamAware-docs-next/pulls)。
-
-## 致谢
-
-感谢以下为本文档做出贡献的同学：
-
-<a href="https://github.com/ExamAware/ExamAware-docs-next/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ExamAware/ExamAware-docs-next&max=1000" alt="贡献者名单"/>
-</a>
+我们欢迎向本仓库提交 [Pull Request](https://github.com/ExamAware/ExamAware-docs/pulls)。
 
 ## 许可证
 
