@@ -1,10 +1,8 @@
 # ExamAware 文档
 
-这是 [ExamAware](https://github.com/ExamAware/ExamAware-docs) 文档仓库。本文档基于 [VuePress](https://vuejs.press/) 搭建
+这是 [ExamAware 文档](https://github.com/ExamAware/ExamAware-docs) 仓库。本文档基于 [VuePress](https://vuejs.press/) 搭建，[在线查看文档](https://examaware.gdata.fun)。
 
-[在线查看文档](https://examaware.gdata.fun)
-
-## 开始编写文档
+## **开始编写文档**
 
 1. 安装 Node 20 环境（推荐使用NVM）
 2. 克隆并进入文档仓库
@@ -19,7 +17,7 @@
     pnpm run docs:dev
     ```
 
-启动 VuePress 服务器后，在浏览器中打开终端输出的链接（默认是[http://localhost:8080/](http://localhost:8080/)）即可浏览文档。当本地文档做出更改时，浏览器中的文档将自动刷新。
+5. 在浏览器中键入终端输出的链接（默认是[http://localhost:8080](http://localhost:8080)），即可浏览文档。当本地文档做出更改时，浏览器中的文档将自动刷新。
 
 本文档使用了 vuepress-plugin-md-enhance
  的一些扩展语法，请尽量直接编辑 Markdown 文件，而不是使用可视化 Markdown 编辑器。建议使用 [Visual Studio Code](https://code.visualstudio.com/) 编辑文档。

@@ -27,14 +27,14 @@ actions:
 
 欢迎来到 ExamAware 的文档。
 
-ExamAware 系列软件是显示当前时间与考试详细信息的工具，可以在各平台上运行。
+ExamAware 系列可以显示当前时间与考试详细信息，并支持在各平台上运行。
 
 ## 开始使用
 
 <div class="vp-card-container">
   <VPCard
     title="安装与开始"
-    desc="了解 ExamAware 系列的设备需求，以及如何在您的设备上安装 ExamAware。"
+    desc="了解 ExamAware 系列的系统需求，以及如何在您的设备上安装和使用 ExamAware。"
     link="./app/setup"
   />
 </div>
@@ -47,13 +47,13 @@ ExamAware 系列软件是显示当前时间与考试详细信息的工具，可�
 
 <div class="vp-card-container">
   <VPCard
-    title="桌面版应用帮助"
-    desc="了解应用的基本使用方法。"
+    title="桌面端应用帮助"
+    desc="了解桌面端应用的基本使用方法。"
     link="./app/"
   />
   <VPCard
     title="集控和网页版应用帮助"
-    desc="查看这部分文档包含了关于集控的帮助，以及网页版应用部署的教程。"
+    desc="了解集控帮助以及网页版应用部署的教程。"
     link="./management/"
   />
 </div>
