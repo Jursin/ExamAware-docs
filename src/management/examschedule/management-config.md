@@ -1,25 +1,23 @@
 # 部署网页
 
-## 前置条件
-
-填写或者用工具生成 `exam_config.json` 文件，示例如下：
-
-请参阅[编写配置文件](/app/profile/faq.md)。
+> [!important]
+> 
+> 请先准备好配置文件，详情请参阅[编写配置文件](src/app/profile/faq.md)。
 
 ## 使用Python部署
- - 确保安装[Python](https://www.python.org/downloads/)。   
- - 从[仓库](https://github.com/ExamAware/ExamSchedule)下载最新版的项目代码
- - 执行以下命令启动本地服务器：
+ - 确保已安装 [Python](https://www.python.org/downloads/)。   
+ - 下载 [ExamSchedule](https://github.com/ExamAware/ExamSchedule) 最新源码
+ - 在项目目录执行以下命令启动本地服务器：
     ```bash
     python3 -m http.server 8000
     ```   
  - 打开浏览器，访问 `http://localhost:8000` 或`http://IP:8000/`即可查看考试安排。 
   
 > [!tip]
-> 8000端口可以自行修改成您需要的端口。
+> 可自行修改8000端口为您设置的端口。
 
 ## 使用宝塔面板部署
- - 确保安装[宝塔面板](https://www.bt.cn/new/download.html)   
+ - 确保已安装[宝塔面板](https://www.bt.cn/new/download.html)   
  - 将域名解析A记录解析到您的服务器IP地址。
  - 在宝塔面板中，点击 `网站` -> `HTML项目`-> `添加站点`。
  ![bt-1](../images/bt01.png)
