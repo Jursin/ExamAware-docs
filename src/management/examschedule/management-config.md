@@ -5,7 +5,7 @@
 > 请先准备好配置文件，详情请参阅[编写配置文件](src/app/profile/faq.md)。
 
 ## 使用Python部署
- - 确保已安装 [Python](https://www.python.org/downloads/)。   
+ - 确保已安装 [Python](https://www.python.org/downloads/) 环境
  - 下载 [ExamSchedule](https://github.com/ExamAware/ExamSchedule) 最新源码
  - 在项目目录执行以下命令启动本地服务器：
     ```bash
@@ -14,7 +14,8 @@
  - 打开浏览器，访问 `http://localhost:8000` 或`http://IP:8000/`即可查看考试安排。 
   
 > [!tip]
-> 可自行修改8000端口为您设置的端口。
+>
+> 可自行修改8000端口为您需要的端口。
 
 ## 使用宝塔面板部署
  - 确保已安装[宝塔面板](https://www.bt.cn/new/download.html)   
@@ -25,11 +26,13 @@
  ![bt2](../images/bt02.png)
  - 在 `网站根目录` 中上传[仓库](https://github.com/ExamAware/ExamSchedule)中最新版的项目代码。   
  - 点击 `确定` 即可完成部署。
+
 > [!tip]
 >
 >如果您没有域名，可以前往[购买域名](https://www.dynadot.com/?s59Ms8lK8u7gQ)。
->或者您也可以直接使用IP+端口直连访问。
 >
+>或者您也可以直接使用IP+端口直连访问。
+
 
 ## 使用GitHub Page部署
 
@@ -37,11 +40,11 @@
 - 在GitHub仓库中，进入 `Settings` -> `Pages`。
 - 在 `Source` 部分选择 `main` 分支并保存。
 ![gh-pages](../images/gh01.png)
-- GitHub Pages 将会自动部署项目，稍后即可通过提供的URL访问。   
+- GitHub Pages 将会自动部署项目，稍后即可通过提供的URL访问。
+
 > [!tip]
 >
 > 您可以在`Custom domain`部分填入您的自定义域名，并将您的自定义域名`CNAME`解析到`{owner}.github.io`。
->   
 
 ## 使用IIS部署
 - 开启IIS功能     
@@ -77,8 +80,8 @@
 6.最后，在浏览器中输入您的网卡地址(教程中的地址为`192.168.1.16`)，看到如下图片即部署成功   
 ![iis-10](../images/iis10.png)
 > [!tip]
-> 如果您希望在公网访问，需要在域名提供商处添加A记录，将域名解析到您的服务器IP地址，并填写正确的主机名。   
 >
+> 如果您希望在公网访问，需要在域名提供商处添加A记录，将域名解析到您的服务器IP地址，并填写正确的主机名。
  
 # 终极部署方案
 都不会部署？或者……尝试终极解决方案：

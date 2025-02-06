@@ -48,12 +48,22 @@ ExamAware 系列可以显示当前时间与考试详细信息，并支持在各�
 <div class="vp-card-container">
   <VPCard
     title="桌面端应用帮助"
-    desc="了解桌面端应用的基本使用方法。"
+    desc="了解桌面端应用的使用方法。"
     link="./app/"
   />
   <VPCard
-    title="集控和网页版应用帮助"
-    desc="了解集控帮助以及网页版应用部署的教程。"
+    title="网页端应用帮助"
+    desc="了解网页端应用使用方法和部署教程。"
+    link="./web/"
+  />
+  <VPCard
+    title="集控帮助"
+    desc="了解集控使用方法和部署教程。"
     link="./management/"
+  />
+  <VPCard
+    title="社区"
+    desc="了解如何参与 ExamAware 社区。"
+    link="./community/"
   />
 </div>

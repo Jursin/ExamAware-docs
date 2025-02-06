@@ -4,7 +4,7 @@
 
 ## 开始之前
 
-不要刷测速了！Vercel 有 ddos 防火墙了！越刷越慢！
+不要刷测速了！Vercel 有 DDoS 防火墙了！越刷越慢！
 （也不要尝试攻击了，Vercel 也有攻击验证模式了）
 
 ![ksnip_20250202-003641](https://github.com/user-attachments/assets/0b49e8fa-80fb-46aa-adc0-c234be4e06bc)
@@ -14,7 +14,7 @@
 ## 开始编写文档
 
 1. 安装 Node 20 环境（推荐使用NVM）
-2. 克隆并进入文档仓库
+2. 克隆并进入文档仓库目录
 3. 安装依赖（需要使用pnpm，可使用corepack安装）
    ```sh
    pnpm install
@@ -26,7 +26,7 @@
     pnpm run docs:dev
     ```
 
-5. 在浏览器中键入终端输出的链接（默认是[http://localhost:8080](http://localhost:8080)），即可浏览文档。当本地文档做出更改时，浏览器中的文档将自动刷新。
+5. 在浏览器中访问终端输出的链接（默认是[http://localhost:8080](http://localhost:8080)），即可浏览文档。当本地文档做出更改时，浏览器中的文档将自动刷新。
 
 本文档使用了 vuepress-plugin-md-enhance
  的一些扩展语法，请尽量直接编辑 Markdown 文件，而不是使用可视化 Markdown 编辑器。建议使用 [Visual Studio Code](https://code.visualstudio.com/) 编辑文档。
@@ -36,7 +36,7 @@
 
 ## 做出贡献
 
-我们欢迎向本仓库提交 [Pull Request](https://github.com/ExamAware/ExamAware-docs/pulls)。
+欢迎向本仓库提交 [Pull Request](https://github.com/ExamAware/ExamAware-docs/pulls)。
 
 ## 许可证
 
