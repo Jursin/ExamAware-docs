@@ -12,30 +12,35 @@ bgImageStyle:
 heroText: ExamAware 文档
 tagline: 显示当前时间与考试详细信息的工具
 actions:
-  - text: 使用说明
-    icon: lightbulb
-    link: ./app/
+  - text: 应用介绍
+    icon: circle-info
+    link: ./introduction/
     type: primary
 
-  - text: 官网
+  - text: GitHub 主页
     link: https://github.com/ExamAware/
 
-  - text: GitHub 仓库
-    link: https://github.com/ExamAware/dsz-exam-showboard
+  - text: 社区规范
+    link: ./community/
 
 ---
 
 欢迎来到 ExamAware 的文档。
 
-ExamAware 系列可以显示当前时间与考试详细信息，并支持在各平台上运行。
+ExamAware 系列应用可以显示当前时间与考试详细信息，并支持在各平台上运行。
 
 ## 开始使用
 
 <div class="vp-card-container">
   <VPCard
-    title="安装与开始"
-    desc="了解 ExamAware 系列的系统需求，以及如何在您的设备上安装和使用 ExamAware。"
-    link="./app/setup"
+    title="应用选择"
+    desc="了解如何根据实际情况选择应用与使用前的准备。"
+    link="./introduction/choose.md"
+  />
+  <VPCard
+    title="关于我们"
+    desc="了解开发团队与如何加入我们。"
+    link="./introduction/about.md"
   />
 </div>
 
@@ -43,7 +48,7 @@ ExamAware 系列可以显示当前时间与考试详细信息，并支持在各�
 
 ## 目录
 
-本文档包含以下部分：
+本文档包含以下部分应用帮助：
 
 <div class="vp-card-container">
   <VPCard
@@ -60,10 +65,5 @@ ExamAware 系列可以显示当前时间与考试详细信息，并支持在各�
     title="集控帮助"
     desc="了解集控使用方法和部署教程。"
     link="./management/"
-  />
-  <VPCard
-    title="社区"
-    desc="了解如何参与 ExamAware 社区。"
-    link="./community/"
   />
 </div>

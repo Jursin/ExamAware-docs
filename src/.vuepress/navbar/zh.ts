@@ -2,6 +2,9 @@ import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
   "/",
+  "/introduction/",
   "/app/",
-  "/management/"
+  "/web/",
+  "/management/",
+  "/community/"
 ]);

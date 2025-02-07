@@ -34,7 +34,7 @@ icon: scale-balanced
 ## 提问/求助
 
 1. 提问前请在这些地方查找是否有您要问的问题：
-    - [本文档](https://https://docs.examaware.us.kg/)
+    - [本文档](https://docs.examaware.us.kg/)
     - 对应仓库 **Issues**
     - [必应](https://cn.bing.com/)、[百度](https://www.baidu.com/)等搜索引擎
     

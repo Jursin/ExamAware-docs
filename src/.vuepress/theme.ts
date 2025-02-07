@@ -3,18 +3,18 @@ import { zhNavbar } from "./navbar/index.js";
 import { zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://docs.ExamAware.tech",
+  hostname: "https://github.com/ExamAware",
 
   author: {
     name: "ExamAware 社区",
-    url: "https://github.com/orgs/ExamAware/discussions",
+    url: "https://github.com/ExamAware",
   },
 
   iconAssets: "fontawesome-with-brands",
 
   logo: "https://avatars.githubusercontent.com/u/195304368?s=200&v=4",
 
-  repo: "ExamAware/ExamAware-docs-next",
+  repo: "ExamAware/ExamAware-docs",
 
   docsDir: "src",
 
