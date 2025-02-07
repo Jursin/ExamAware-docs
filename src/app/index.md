@@ -20,17 +20,16 @@ category:
 >
 > 当前构建版包含最新的功能，但也可能尚未完善且不稳定，请谨慎使用。
 
-::: details 无法在 Windows 7 中运行 ExamShowboard（点击展开）
 > [!caution]
-> **在 Windows 7 中使用 ExamShowboard 是不现实的。** 受限制于框架问题，您无法在 Windows 7 中运行 ExamShowboard 。
-:::
+> 
+> **在 Windows 7 中使用 ExamShowboard 是不现实的。**受限制于框架问题，您无法在 Windows 7 中运行 ExamShowboard 。
 
 # 安装软件
 
 下载完成后，运行安装程序，等待进度条走完后双击自动创建的 `ExamShowboard` 桌面快捷方式即可进入应用
 
 ___
-请先参阅[编写配置文件](./introduction/config-edit.md)。
+请先参阅[编写配置文件](../introduction/config-edit.md)。
 
 ## 使用本地配置文件
 

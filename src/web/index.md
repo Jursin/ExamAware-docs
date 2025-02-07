@@ -7,7 +7,7 @@ category:
   - 部署教程
 ---
 
-由于 ExamAware 桌面端受限制于框架问题，无法在除[指定系统平台](/introduction/config-edit.md#检查系统需求)外的老旧平台系统上运行。因此，为了更好地满足用户需求，我们推出了网页端考试看板。
+由于 ExamAware 桌面端受限制于框架问题，无法在除[指定系统平台](../introduction/choose.md#检查系统需求)外的老旧平台系统上运行。因此，为了更好地满足用户需求，我们推出了网页端考试看板。
 ![iis-10](../web/images/es.png)
 
 <a id="get-started"></a>
@@ -51,5 +51,5 @@ category:
 
 
 ## 开始使用/如何部署？
-请参阅[部署教程](/web/web-deploy.md)。
+请参阅[部署教程](../web/deploy.md)。
 

@@ -2,7 +2,7 @@
 
 > [!important]
 >
-> 请先准备好配置文件，详情请参阅[编写配置文件](/app/profile/faq.md)。
+> 请先准备好配置文件，详情请参阅[编写配置文件](../introduction/config-edit.md)。
 
 ## 使用Python部署
  - 确保已安装 [Python](https://www.python.org/downloads/) 环境   
@@ -20,7 +20,7 @@
  - 确保已安装[宝塔面板](https://www.bt.cn/new/download.html)   
  - 将域名解析A记录解析到您的服务器IP地址。
  - 在宝塔面板中，点击 `网站` -> `HTML项目`-> `添加站点`。
- ![bt-1](../web/images/bt01.png)
+ ![bt-1](../images/bt01.png)
  - 在 `域名` 中输入您的域名。  
  ![bt2](../web/images/bt02.png)
  - 在 `网站根目录` 中上传最新版的项目代码。   
