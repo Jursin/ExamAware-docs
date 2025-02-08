@@ -1,4 +1,10 @@
-# 应用选择
+---
+title: 应用选择
+index: false
+icon: list-check
+category:
+  - 应用
+---
 
 ## 检查系统需求
 

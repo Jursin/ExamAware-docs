@@ -22,7 +22,7 @@ category:
 
 > [!caution]
 > 
-> **在 Windows 7 中使用 ExamShowboard 是不现实的。**受限制于框架问题，您无法在 Windows 7 中运行 ExamShowboard 。
+> **在 Windows 7 中使用 ExamShowboard 是不现实的。** 受限制于框架问题，您无法在 Windows 7 中运行 ExamShowboard 。
 
 # 安装软件
 

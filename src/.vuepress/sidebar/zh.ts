@@ -89,7 +89,7 @@ export const zhSidebar = sidebar({
         {
           text: "贡献指南",
           link: "contributing.md",
-          icon: "fa-solid fa-handshake",
+          icon: "fa-solid fa-code-commit",
         },
       ],
     },
