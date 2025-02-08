@@ -29,7 +29,7 @@ category:
 | 名称 | 简述 | 🚀 发行版 | 🚧 当前构建 |
 | - | - | - | - |
 | [dsz-exam-showboard](https://github.com/ExamAware/dsz-exam-showboard) | 旧桌面端应用 | [Releases](https://github.com/ExamAware/dsz-exam-showboard/releases) | [Actions](https://github.com/ExamAware/dsz-exam-showboard/actions) |
-| [ExamAware2-Desktop](https://github.com/ExamAware/ExamAware2-Desktop) | 全新重构的桌面端应用***（开发中）*** | *暂无* | *暂无* |
+| [ExamAware2-Desktop](https://github.com/ExamAware/ExamAware2-Desktop) | 全新重构的桌面端应用 ***（开发中）*** | *暂无* | *暂无* |
 | [ExamSchedule](https://github.com/ExamAware/ExamSchedule) | 静态版本的网页端应用 | [ExamSchedule-main](https://github.com/ExamAware/ExamSchedule) | [ExamSchedule-dev](https://github.com/ExamAware/ExamSchedule/tree/dev) |
 | [ExamCloudSchedule](https://github.com/ExamAware/ExamCloudSchedule) | 考试云看板 | [Releases](https://github.com/ExamAware/ExamCloudSchedule/releases) | |
 | [ExamAware2](https://github.com/ExamAware/ExamAware2) | | | |

@@ -23,6 +23,7 @@ actions:
     type: primary
 
   - text: 社区规范
+    icon: users
     link: ./community/
 
 ---

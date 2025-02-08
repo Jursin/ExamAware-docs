@@ -31,11 +31,11 @@
 ## 常用命令
 | 命令 | 作用 |
 |-|-|
-| `npm run docs:build` | 构建项目，生成静态文件 |
-| `npm run docs:clean-dev` | 启动开发服务器并清除缓存 |
-| `npm run docs:dev` | 启动开发服务器，支持热更新 |
-| `npm run docs:update-package` | 更新 VuePress 和相关依赖包 |
-| `npm run export-pdf` | 将文档导出为 PDF 文件 |
+| `pnpm run docs:build` | 构建项目，生成静态文件 |
+| `pnpm run docs:clean-dev` | 启动开发服务器并清除缓存 |
+| `pnpm run docs:dev` | 启动开发服务器，支持热更新 |
+| `pnpm run docs:update-package` | 更新 VuePress 和相关依赖包 |
+| `pnpm run export-pdf` | 将文档导出为 PDF 文件 |
 
 本文档使用了 vuepress-plugin-md-enhance
  的一些扩展语法，请尽量直接编辑 Markdown 文件，而不是使用可视化 Markdown 编辑器。建议使用 [Visual Studio Code](https://code.visualstudio.com/) 编辑文档。

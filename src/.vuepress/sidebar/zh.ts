@@ -72,6 +72,11 @@ export const zhSidebar = sidebar({
           link: "client-identify.md",
           icon: "fa-solid fa-id-card",
         },
+        {
+          text: "考试云看板",
+          link: "ExamCloudSechdule.md",
+          icon: "fa-solid fa-server",
+        },
       ],
     },
   ],

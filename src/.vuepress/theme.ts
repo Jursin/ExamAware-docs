@@ -54,14 +54,7 @@ export default hopeTheme({
   metaLocales: {
     editLink: "在 GitHub 上编辑此页",
   },
-
-  navbarIcon: {
-    qq: {
-      icon: "fab fa-qq",
-      link: "https://qm.qq.com/q/zDiEipHsaI",
-    },
-  },
-
+  
   // 如果想要实时查看任何改变，启用它。注：这对更新性能有很大负面影响
   // hotReload: true,
   pure: true,
