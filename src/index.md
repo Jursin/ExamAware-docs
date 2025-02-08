@@ -18,7 +18,9 @@ actions:
     type: primary
 
   - text: GitHub 主页
+    icon: fab fa-github
     link: https://github.com/ExamAware/
+    type: primary
 
   - text: 社区规范
     link: ./community/

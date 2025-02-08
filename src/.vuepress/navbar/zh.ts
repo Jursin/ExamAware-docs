@@ -6,5 +6,10 @@ export const zhNavbar = navbar([
   "/app/",
   "/web/",
   "/management/",
-  "/community/"
+  "/community/",
+  {
+    text: "QQ",
+    link: "https://im.qq.com/",
+    icon: "fab fa-qq",
+  },
 ]);
