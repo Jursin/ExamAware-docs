@@ -1,9 +1,10 @@
 ---
+title: 社区
+index: false
 icon: users
-index: true
+category:
+  - 社区
 ---
-
-# 社区
 
 > [!warning]
 > 要加入社区，您需要遵循相应讨论社区的[社区规范](rules.md)。

@@ -1,8 +1,10 @@
-# 部署教程
-
-> [!important]
->
-> 请先准备好配置文件，详情请参阅[编写配置文件](../introduction/config-edit.md)。
+---
+title: 部署教程
+index: false
+icon: server
+category:
+  - 使用指南
+---
 
 ## 使用Python部署
  - 确保已安装 [Python](https://www.python.org/downloads/) 环境   

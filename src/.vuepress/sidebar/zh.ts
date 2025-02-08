@@ -54,7 +54,7 @@ export const zhSidebar = sidebar({
       link: "index.md",
       children: [
         {
-          text: "部署",
+          text: "部署教程",
           link: "deploy.md",
           icon: "fa-solid fa-server",
         },

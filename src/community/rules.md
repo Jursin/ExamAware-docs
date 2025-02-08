@@ -1,9 +1,11 @@
 ---
-author: Hello8693
+title: 社区规范
+index: false
 icon: scale-balanced
+author: Hello8693
+category:
+  - 社区
 ---
-
-# 社区规范
 
 > [!note]
 >

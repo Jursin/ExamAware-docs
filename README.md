@@ -1,6 +1,6 @@
 # ExamAware 文档
 
-这是 [ExamAware 文档](https://github.com/ExamAware/ExamAware-docs) 仓库。本文档基于 [VuePress](https://vuejs.press/) 搭建，[在线查看文档](https://examaware.gdata.fun)。
+这是 [ExamAware 文档](https://github.com/ExamAware/ExamAware-docs) 仓库。本文档基于 [VuePress](https://vuejs.press/) 搭建，引入[VuePress Theme Hope](https://theme-hope.vuejs.press/zh/)主题，[查看在线文档](https://examaware.gdata.fun)。
 
 ## 开始之前
 
@@ -27,6 +27,15 @@
     ```
 
 5. 在浏览器中访问终端输出的链接（默认是[http://localhost:8080](http://localhost:8080)），即可浏览文档。当本地文档做出更改时，浏览器中的文档将自动刷新。
+
+## 常用命令
+| 命令 | 作用 |
+|-|-|
+| `npm run docs:build` | 构建项目，生成静态文件 |
+| `npm run docs:clean-dev` | 启动开发服务器并清除缓存 |
+| `npm run docs:dev` | 启动开发服务器，支持热更新 |
+| `npm run docs:update-package` | 更新 VuePress 和相关依赖包 |
+| `npm run export-pdf` | 将文档导出为 PDF 文件 |
 
 本文档使用了 vuepress-plugin-md-enhance
  的一些扩展语法，请尽量直接编辑 Markdown 文件，而不是使用可视化 Markdown 编辑器。建议使用 [Visual Studio Code](https://code.visualstudio.com/) 编辑文档。

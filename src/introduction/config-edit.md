@@ -8,6 +8,9 @@ category:
 
 本应用配置文件记录了考试名称、提示信息，考试信息（科目名称、开始/结束时间、结束提醒时间）。
 
+> [!important]
+> 本系列应用共用这一套配置文件，请仔细阅读本页配置文件编写教程！
+
 您可以按照模板手动编写配置文件，也可以直接使用[配置文件编辑器（legacy）](https://github.com/ExamAware/DSZExamShowBoardEditor/releases/latest)编写配置文件。
 
 > [!tip]

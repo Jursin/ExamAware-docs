@@ -1,8 +1,12 @@
-# 客户端识别
+---
+title: 客户端识别
+index: false
+icon: id-card
+category:
+  - 使用指南
+---
 
 您可以为每个 ExamAware 实例自定义一个 id，来标识每个实例。您可以将自定义 id 设置为班级名、教室编号等易于识别的名称。只有服务器段的 id 与客户端重复，客户端才能获得信息。
-
-<a id="url-template"></a>
 
 ## url 模板
 

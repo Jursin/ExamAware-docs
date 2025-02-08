@@ -1,8 +1,11 @@
 ---
+title: 贡献指南
+index: false
 icon: code-commit
+category:
+  - 社区
+  - 贡献
 ---
-
-# 向 ExamAware 文档做贡献
 
 > [!warning]
 >
@@ -10,7 +13,7 @@ icon: code-commit
 
 本文档的建设离不开广大用户的支持，感谢您考虑为本文档做出贡献❤️！在为本文档贡献之前，请先阅读本指南。
 
-本文档基于 [VuePress](https://vuepress.vuejs.org/) 搭建。了解 [VuePress](https://vuepress.vuejs.org/) 的用法对编写本文档很有帮助。
+本文档基于 [VuePress](https://vuepress.vuejs.org/) 搭建，了解 [VuePress](https://vuepress.vuejs.org/) 的用法对编写本文档很有帮助。
 
 本文档目前托管在 [GitHub Pages](https://pages.github.com/) 上。
 

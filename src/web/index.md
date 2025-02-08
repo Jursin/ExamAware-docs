@@ -6,11 +6,9 @@ category:
   - 使用指南
 ---
 
-由于 ExamAware 桌面端受限制于框架问题，无法在除[指定系统平台](../introduction/choose.md#检查系统需求)外的老旧平台系统上运行。因此，为了更好地满足用户需求，我们推出了网页端考试看板。
-![iis-10](../web/images/es.png)
+由于 ExamAware 桌面端受限制于框架问题，无法在除[指定系统平台](../introduction/choose.md#检查系统版本)外的老旧平台系统上运行。因此，为了更好地满足用户需求，我们推出了网页端考试看板 [ExamSchedule])https://github.com/ExamAware/ExamSchedule) 。
 
-<a id="get-started"></a>
-
+![ExamSchedule](../web/images/es.png)
 
 ## 功能
 
@@ -49,6 +47,6 @@ category:
 ![time](../web/images/es-time.png)
 
 
-## 开始使用/如何部署？
+## 开始部署
 请参阅[部署教程](../web/deploy.md)。
 
